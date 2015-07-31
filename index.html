@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>YI Lab Webpage</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    <!-- for the research interest responsive icon -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- the icon in the browser-->
+    <link rel="shortcut icon" href="images/icon_128.png">
+    <!-- add raleway font -->
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+
+    </style>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top"></a> -->
+                <!-- <a class="navbar-brand page-scroll" href="#page-top">Ji-Yi's lab page</a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li>
+                        <a class="page-scroll" href="#intro">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#people">People</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#publication">Publication</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container-fluid">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" stype="height: 100%; text-align:center;" >
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- slide1 -->
+            <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/WebEnterImage.jpg" alt="image1">
+              <div class="container">
+<!--                 <div class="carousel-caption">
+                  <h1>Example headline.</h1>
+                </div> -->
+              </div>
+            </div>
+            <!-- slide2 -->
+            <div class="item">
+              <img src="images/WebEnterImage.jpg" alt="image2">
+            </div>
+            <!-- slide3 -->
+            <div class="item">
+              <img src="images/WebEnterImage.jpg" alt="image3">
+            </div>
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+<!--         <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Research Interest</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+          <ul class="nav nav-tabs nav-justified">
+            <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+            <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+            <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+            <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="home" class="tab-pane fade in active">
+              <h3>HOME</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div id="menu1" class="tab-pane fade">
+              <h3>Menu 1</h3>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <h3>Menu 2</h3>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <h3>Menu 3</h3>
+              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            </div>
+          </div>
+        </div> -->
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <h1>Research Interests</h1> -->
+                      <h2><strong class="text-uppercase">Research Interests</strong></h2>
+                      <hr class="soften">
+                </div>
+                <!-- <div class="col-md-6 col-md-offset-3" role="tabpanel"> -->
+                <div class="col-md-12" role="tabpanel">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-justified tpl-alt-tabs font-alt pt-30 pt-sm-0 pb-30 pb-sm-0" id="nav-tabs" role="tablist">
+                    <li role="presentation" class="active">
+                        <a href="#dustin" aria-controls="dustin" role="tab" data-toggle="tab" aria-expanded='true'>
+                            <img class="img-circle" src="images/Angiography_crop.jpg" height="175" width="175" />
+                            <!-- <img class="img-circle" src="images/research_interest1.png" height="198px" width="198px" /> -->
+                            <br> 
+                                <p class="research_under_icon1">Functional optical imaging</p>
+                            </br>
+                 <!--            <span class="quote"><i class="fa fa-quote-left"></i></span> -->        
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#daksh" aria-controls="daksh" role="tab" data-toggle="tab">
+                            <img class="img-circle" src="images/Probe.jpg" height="175" width="175"/>
+                           <!--  <span class="quote"><i class="fa fa-quote-left"></i></span> -->
+                            <br>
+                                 <p class="research_under_icon2">Fiber optics/endoscopy</p>
+
+                            </br>                                                               
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#anna" aria-controls="anna" role="tab" data-toggle="tab">
+                            <img class="img-circle" src="images/superresolution.jpg" height="175" width="175"/>
+                          <!--   <span class="quote"><i class="fa fa-quote-left"></i></span> -->
+                              <br>
+                                 <p class="research_under_icon3">Superresolution microscopy</p>
+                              </br>
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#wafer" aria-controls="wafer" role="tab" data-toggle="tab">
+                            <img class="img-circle" src="images/translational.jpg" height="175" width="175"/>
+                          <!--   <span class="quote"><i class="fa fa-quote-left"></i></span> -->
+                              <br>
+                                <p class="research_under_icon4">Translational research</p>  
+
+                              </br>
+                        </a>        
+                    </li>
+                  </ul>
+                
+                  <!-- Tab panes -->
+                  <div class="tab-content" id="tabs-collapse">
+                    <div role="tabpanel" class="tab-pane fade in active" id="dustin">
+                        <div class="tab-inner">                    
+                            <p class="research">A basic purpose of imaging is to visualize structural details in cell/tissue/organ.  Beyond structure, seeing the function in a biological system provides valuable information.
+                            </p>
+<!--                             <hr class="soften">
+                            <p><strong class="text-uppercase">Dustin Lamont</strong></p>
+                            <p><em class="text-capitalize"> Senior web developer</em> at <a href="#">Apple</a></p> -->                 
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="daksh">
+                        <div class="tab-inner">
+                            <p class="research">Endoscopic imaging using fiber optics delivers and collects light through digestive tract or open airways.  The small size limit poses a grant challenge to integrate sophisticated optical system into an endoscopic body or existing endoscopy working channel.
+                            </p>
+<!--                             <hr class="soften">
+                            <p><strong class="text-uppercase">Daksh Bhagya</strong></p>
+                            <p><em class="text-capitalize"> UX designer</em> at <a href="#">Google</a></p> -->
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="anna">
+                        <div class="tab-inner">
+                            <p class="research">Abby’s diffraction limit has governed the smallest feature that is resolvable by optical microscopy to about 0.5 microns, for more than one century.  Superresolution microscopy is to break the diffraction limit and achieve nanoscale resolution.
+                            </p>
+<!--                             <hr class="soften">
+                            <p><strong class="text-uppercase">Anna Pickard</strong></p>
+                            <p><em class="text-capitalize"> Master web developer</em> at <a href="#">Intel</a></p> -->
+                        </div> 
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="wafer">
+                        <div class="tab-inner">
+                            <p class="research">One major focus of this lab is to translate the development of novel optical technique to clinics, and ultimately benefit the general public.
+                            </p>
+<!--                             <hr class="soften">
+                            <p><strong class="text-uppercase">Wafer Baby</strong></p>
+                            <p><em class="text-capitalize"> Web designer</em> at <a href="#">Microsoft</a></p> -->
+                        </div>
+                    </div>
+                  </div>
+                
+                </div>
+            </div>
+        </div>      
+
+    </section>
+
+    <!-- People Section -->
+    <section id="people" class="people-section">
+        <div class="container text-center">
+            <h2><strong class="text-uppercase">people</strong></h2>
+            <hr class="soften">
+            <div class="row">
+            <!-- bootstrap grid system-->
+                <div class="col-sm-1"></div>
+                <div class="col-md-4 text-left">
+                  <h4 class="text-uppercase">principle investigator<h4>
+                  <h1 class="bio">Ji Yi</h1>          
+                  <img src="images/portrait.jpg" class="img-rounded" alt="Cinque Terre" width="300" height="300">
+                  <h3>Contact</h3>
+                  <p class= "bio2">Address: 650 Aibany Street, Boston MA</p>
+                  <p class= "bio2">Email: jiyi@bu.edu</p> 
+                        <div class="col-xs-0"></div>
+                        <!-- style is used to remove the dash line -->
+                            <a href= "mailto:jiyi@BU.edu"  style="text-decoration: none !important;">
+                                <img src="images/Email.png" class="iconBio">
+                            </a>
+                            <a href="https://wwww.facebook.com" style="text-decoration: none !important;">
+                                <img src="images/Facebook.png" class="iconBio">
+                            </a>
+                            <a href="https://www.linkedin.com/pub/ji-yi/4b/a0a/93a" style="text-decoration: none !important;">
+                                <img src="images/LinkedIn.png" class="iconBio">
+                            </a>
+                            <a href="https://www.twitter.com" style="text-decoration: none !important;">
+                                <img src="images/Twitter.png" class="iconBio">
+                            </a>
+                </div>
+                <div class="col-md-6 text-left">
+<!--                   <br><br>
+                  <br><br> -->
+                  <h3>EDUCATION</h3>
+                  <p class= "bio2">B.S.  Biomedical Engineering, Tsinghua University, Beijing, China</p>
+                  <p class= "bio">M.S. and Ph.D Biomedical Engineering, Northwestern University, Evanston IL</p>
+                  <h3>BIOGRAPHY</h3>
+                  <p class = "bio">His work focuses on novel optical techniques for early disease detection, and monitoring disease progression and prognosis.  Among other inventions, he developed various imaging methods that enables noninvasive detection of nanoscale structural alterations in tissue and the local tissue metabolism.  By applying those techniques, he demonstrated the detection of the earliest form of colorectal and pancreatic cancers, colonization of metastatic breast cancer cells, and blinding retinal diseases such as diabetic retinopathy.  He also studied the nanoscale structural changes in both cellular and extracellular components in field carcinogenesis.  His research is at the interface of biophotonic, physics, engineering, biology and medicine, that ultimately aim to improve the health care of general public and our community.</p>
+                  <h3>RESEARCH INTERESTS</h3>
+                  <p class = "bio">Biophotonics, super-resolution imaging, fiber optics and endoscopy, structural and functional relation in biological systems, Early detection and monitor of cancer and other chronic diseases, optical biomarkers.</p>
+                </div>
+                <div class="col-md-1"></div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- publication Section -->
+    <section id="publication" class="publication-section">
+        <div class="container text-center">
+            <h2><strong class="text-uppercase">publication</strong></h2>
+            <hr class="soften">
+        </div>
+        <div class="container">
+          <!-- <ul class="nav nav-tabs nav-justified"> -->
+        <div class="col-sm-10 col-sm-offset-1"> 
+          <ul class="nav nav-pills">
+            <li><p>Year: </p><li>
+            <li class="active"><a data-toggle="tab" href="#2015">2015</a></li>
+            <li><a data-toggle="tab" href="#2014">2014</a></li>
+            <li><a data-toggle="tab" href="#2013">2013</a></li>
+            <li><a data-toggle="tab" href="#2012">2012</a></li>
+            <li><a data-toggle="tab" href="#2010">2010</a></li>
+            <li><a data-toggle="tab" href="#2009">2009</a></li>
+            <li><a data-toggle="tab" href="#2008">2008</a></li>
+            <li><a data-toggle="tab" href="#2006">2006</a></li>
+          </ul>
+          <div class="tab-content">
+            <!-- <div class="tab-pane fade"><h3>Year</h3> -->
+            <div id="2015" class="tab-pane fade in active">
+                <div class="bs-callout bs-callout-primary in active">
+                <p>Siyu Chen*, Ji Yi*, Hao F. Zhang, “Measuring oxygen saturation in retinal and choroidal circulations in rats using visible light optical coherence tomography angiography”, Biomedical Optics Express, 6(8), 2840-2853.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Wenzhong Liu, Siyu Chen, Vadim Backman, Nader Sheibani, Amani A. Fawzi, Robert A. Linsenmeier, and Hao F. Zhang, “Visible light optical coherence tomography measures retinal oxygen metabolic response to systemic oxygenation”, Light: Science &Applications, Accepted.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Siyu Chen, Ji Yi, Wenzhong Liu, Vadim Backman, Hao F. Zhang, “Monte Carlo investigation of optical coherence tomography retinal oximetry”, IEEE Trans. Biomed. Eng., Accepted.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ben E. Urban*, Ji Yi*, Siyu Chen*, Biqin Dong, Yongling Zhu, Steven H. DeVries, Vadim Backman, and Hao F. Zhang, “Super-resolution two-photon microscopy via scanning patterned illumination”, Physical Review E 91, 042703.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Siyu Chen, Ji Yi, Biqin Dong, Cheng Sun, Patrick F Kiser, Thomas J Hope, Hao F Zhang, “Imaging endocervical mucus anatomy and dynamics in macaque female reproductive track using optical coherence tomography”, Quantitative Imaging in Medicine and Surgery, 5(1), 40–45.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Hui Chen, Yan Zhao, Mingna Liu, Liang Feng, Zhen Puyang, Ji Yi, Peiji Liang, Hao F. Zhang, Jianhua Cang, John B. Troy, and Xiaorong Liu, “Progressive Degeneration of Retinal and Superior Collicular Functions in Mice With Sustained Ocular Hypertension”, IOVS, 56(3), 1971-1984.</p>
+                </div>
+            </div>
+            <div id="2014" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Siyu Chen, Vadim Backman, Hao F. Zhang, “In vivo functional microangiography by visible light optical coherence tomography”, Biomedical Optics Express, 5(10), 3603-3612.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Wei Song, Qing Wei, Wenzhong Liu, Tan Liu, Ji Yi, Nader Sheibani, Amani A. Fawzi, Robert A. Linsenmeier, Shuliang Jiao, Hao F. Zhang, “A combined method to quantify the retinal metabolic rate of oxygen using photoacoustic ophthalmoscopy and optical coherence tomography”, Scientific Report 4, 6525.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ben Urban, Ji Yi, Vladislav Yakovlev, and Hao F. Zhang, “Investigating femtosecond-laser induced two-photon photoacoustic generation”, Journal of Biomedical Optics 19(8), 085001</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Andrew J. Radosevich, Yolanda Stypula-Cyrus, Nikhil N. Mutyal, Samira Michelle Azarin, Elizabeth Horcher, Michael J. Goldberg; Laura K. Bianchi; Shailesh Bajaj; Hemant K. Roy; Vadim Backman, “Spatially-resolved optical and ultra-structural properties of colorectal and pancreatic field carcinogenesis observed by inverse spectroscopic optical coherence tomography,” Journal of Biomedical Optics 19, 036013.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Kvar. C. L. Black, Tadas. S. Sileika, Ji Yi, R. Zhang, J. G. Rivera, and Phillip B. Messersmith, "Bacterial Killing by Light-Triggered Release of Silver from Biomimetic Metal Nanorods," Small 10, 169-178.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>J. D. Rogers*, A. J. Radosevich*, Ji Yi*, and V. Backman, "Modeling Light Scattering in Tissue as Continuous Random Media Using a Versatile Refractive Index Correlation Function," Selected Topics in Quantum Electronics, IEEE Journal of 20, 1-14.</p>
+                </div>
+            </div>
+            <div id="2013" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>A. J. Radosevich, N. N. Mutyal, Ji Yi, Y. Stypula-Cyrus, J. D. Rogers, M. J. Goldberg, L. K. Bianchi, S. Bajaj, H. K. Roy, and V. Backman, "Ultrastructural alterations in field carcinogenesis measured by enhanced backscattering spectroscopy," Journal of Biomedical Optics 18, 097002.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Wenzhong Liu, Tan Liu, Wei Song, Ji Yi, and Hao F. Zhang, “Automatic retinal vessel segmentation based on active contours method in Doppler spectral-domain optical coherence tomography,” Journal of Biomedical Optics 18, 016002.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Qing Wei, Wenzhong Liu, Vadim Backman, and Hao F. Zhang, “Visible-light optical coherence tomography for retinal oximetry,” Optics Letters, 38(11), 1796-1798.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Kvar CL Black, Ji Yi, José G. Rivera, Daria C. Zelasko-Leon, and Phillip B. Messersmith, "Polydopamine-enabled surface functionalization of gold nanorods for cancer cell-targeted imaging and photothermal therapy," Nanomedicine 8, 17-28.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Wenzhong Liu, Shuliang Jiao, and Hao F. Zhang, “Combining light and sound for retinal imaging,” SPIE Newsroom, DOI: 10.1117/2.1201303.004764.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Andrew J. Radosevich, Jeremy D. Rogers, Sam C.P. Norris, İlker R. Çapoğlu, Allen Taflove, and Vadim Backman, "Can OCT be sensitive to nanoscale structural alterations in biological tissue?," Optics Express 21, 9043-9059.</p>
+                </div>
+            </div>
+            <div id="2012" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Andrew J. Radosevich, J. D. Rogers, V. Turzhitsky, N. N. Mutyal, Ji Yi, H. K. Roy, V. Backman,  "Polarized enhanced backscattering spectroscopy for characterization of biological tissues at subdiffusion length scales," Selected Topics in Quantum Electronics, IEEE Journal of 18, 1313-1325</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Andrew J. Radosevich, Ji Yi, Jeremy D. Rogers, and Vadim Backman, "Structural length-scale sensitivities of reflectance measurements in continuous random media under the Born approximation," Optics Letters 37, 5220-5222.</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Qing Wei, Hao F. Zhang, and Vadim Backman, "Structured interference optical coherence tomography," Optics Letters 37, 3048-3050</p>
+                </div>
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi and Vadim Backman, "Imaging a full set of optical scattering properties of biological tissue by inverse spectroscopic optical coherence tomography," Optics Letters 37, 4443-4445</p>
+                </div>
+            </div>
+            <div id="2010" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi and Xu Li, "Estimation of oxygen saturation from erythrocytes by high-resolution spectroscopic optical coherence tomography," Optics Letters 35, 2094-2096.</p>
+                </div>
+            </div>
+            <div id="2009" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Ji Yi, Jianmin Gong, and Xu Li, "Analyzing absorption and scattering spectra of micro-scale structures with spectroscopic optical coherence tomography," Optics Express 17, 13157-13167.</p>
+                </div>
+            </div>
+            <div id="2008" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Jianmin Gong, Ji Yi, Vladimir M. Turzhitsky, Kenji Muro, and Xu Li. "Characterization of malignant brain tumor using elastic light scattering spectroscopy," Disease Markers 25, 303-312.</p>
+                </div>
+            </div>
+            <div id="2006" class="tab-pane fade">
+                <div class="tap-pane bs-callout bs-callout-primary">
+                <p>Xiaolei Song, Ji Yi, Jing Bai, "A parallel reconstruction scheme in fluorescence tomography based on contrast of independent inversed absorption properties," International Journal of Biomedical Imaging 2006, 70839.</p>
+                </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- news Section -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <div class="col-lg-12">   
+                    <h2><strong class="text-uppercase">News</strong></h2>
+                    <hr class="soften">
+                </div>
+            </div>
+        <div class="col-sm-10 col-sm-offset-1"> 
+         <table class="table table-striped text-left">
+            <thead>
+              <tr>
+                <th class="col-sm-3">Date</th>
+                <th class="col-sm-10">Content</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>July 2015</td>
+                    <td>Yi lab website is launched!  Thanks to Jian Liu.</td>
+                </tr>
+              <tr>
+                    <td>December 2014</td>
+                    <td>Dr. Ji Yi will join the BUMC in coming September 2015.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- publication Section -->
+    <section id="contact" class="contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">   
+                    <h2><strong class="text-uppercase">Contact us</strong></h2>
+                    <hr class="soften">
+                    <h3 class="contact">Are you intested in our research?</h3>
+                    <h3 class="contact">Do you wanna join our research team?</h3>
+                    <br></br>
+                    <!-- email btn mailto: jiyi@BU.edu-->
+                    <a href= "mailto:jiyi@BU.edu" class="btn btn-danger btn-lg" role="button">Write to us</a>
+                    <!-- phone btn -->
+                    <br>
+                    <button type="button" class="btn btn-danger btn-lg">Call us</button>
+                    </br>
+                    <h3 class="contact">or visit our lab</h3>
+                    <!-- address btn -->
+                    <a href= "https://www.google.com/maps/place/650+Albany+St,+Boston,+MA+02118/@42.3359532,-71.069487,17z/data=!3m1!4b1!4m2!3m1!1s0x89e37a6a6e7a7639:0xf926aa726130ddbf" class="btn btn-danger btn-lg" role="button">Address</a>
+                </div>
+                <!--google map-->
+                <!-- <div id="map-canvas"></div> -->
+            </div>
+            </div>
+    </section>
+
+    <section id="foot" class="foot-section">
+        <div class="container-fluid">
+<!--             <ul class="nav scroll-top foot">
+            <li><a href="#"><i class="glyphicon glyphicon-chevron-up"></i></a></li>
+            </ul> -->
+            <div class="col-sm-8 col-sm-offset-2 text-center">
+                <hr class="soften">
+                <h4 class="foot">©2015 YI LAB. ALL RIGHTS RESERVED.</h4>
+                <p class="soften"><em>Built by</em>
+                <a href="https://www.linkedin.com/pub/jian-liu/77/657/ab7">Jian Liu</a>
+                </p>
+            </div>
+        </div>
+
+    <!-- scroll to top button -->
+
+
+    </section>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
